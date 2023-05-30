@@ -5,13 +5,7 @@ Select * From Year2019
 Union
 Select * From Year2020)
 
--- Calculate revenue by yaer
-----Select arrival_date_year,
-----hotel,
-----Round(Sum((stays_in_weekend_nights+stays_in_week_nights)*adr),2) As Revenue
-----From Hotels
-----Group by arrival_date_year,hotel
-
+-- Join Hotels with market_segment and meal_cost
 Select *
 From Hotels
 Left join market_segment
