@@ -14,8 +14,11 @@
 ## Summary of Project
 The project involved examining hotel revenue trends by joining tables from 2018, 2019, and 2020 files using SQL Management.The next step involved importing the combined data into Power BI. 
 The goal was to analyze the data and answer several questions:
-<br \> **1. Whether the hotel revenue is growing?** <br \>
+
+**1. Whether the hotel revenue is growing?** 
+
 **2. Whether the parking lot size should be increased?** 
+
 **3. What trends can be observed from the data?**
 
 
